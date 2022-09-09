@@ -8,13 +8,14 @@ spec:
   serviceAccountName: pipeline
   params:
   - name: buildRevision
-    value: 'd9c7ccb0713da882d8373169e2a1d705f5959386'
+    value: 'e99b15f88b47b1d25255f1be8d4fd56f397e3d26'
   - name: appGitUrl
-    value: 'git@github.com:example/app.git'
+    value: 'https://github.com/mytestlab123/scalable-coffee-shop'
+#    value: 'git@github.com:mytestlab123/scalable-coffee-shop.git'
   - name: configGitUrl
-    value: 'git@github.com:example/app-config.git'
+    value: 'git@github.com:mytestlab123/coffee-testing-config.git'
   - name: appImage
-    value: 'docker.example.com/app'
+    value: 'amitkarpe/tkn1'
   workspaces:
   - name: app-source
     emptyDir: {}

@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: systemtest
-    repoURL: https://github.com/example/app-config.git
+    repoURL: https://github.com/mytestlab123/coffee-testing-config
     targetRevision: HEAD
   syncPolicy:
     automated:
